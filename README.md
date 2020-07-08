@@ -8,10 +8,15 @@ The **RoboND_P1_Build-My-World** lab part of RoboND Gazebo Basics lesson. The pu
     .RoboND_P1_Build-My-World.git      # repository main folder 
     ├── images                         # Code output image                   
     │   ├── output.png
-    ├── model                          # Model files of the two-wheeled robot
-    │   ├── robot
+    │   ├── layout.png
+    ├── model                          # Model files of the robot and the flat
+    │   ├── Simple_Flat
     │   │   ├── model.config
     │   │   ├── model.sdf
+    │   ├── Robot
+    │   │   ├── Robot
+    │   │       ├── model.config
+    │   │       ├── model.sdf
     ├── script                         # Gazebo World plugin C++ script      
     │   ├── hello.cpp
     ├── world                          # Gazebo main World empty scene
